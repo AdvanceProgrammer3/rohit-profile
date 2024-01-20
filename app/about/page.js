@@ -15,7 +15,7 @@ export default function About() {
           skills and build real-world projects that demonstrate your expertise.
         </p>
         <p className=" italic py-4">
-          If you're new to web development, we recommend starting with our 50
+          If you are new to web development, we recommend starting with our 50
           HTML CSS JS Projects course, which will walk you through building 50
           small projects using HTML, CSS, and JavaScript.
         </p>
@@ -25,11 +25,11 @@ export default function About() {
           server-side programming.
         </p>
         <p className="py-3 font-thin text-red-500 pb-72">
-          Once you've completed the course, you can come back to 100 JS Projects
-          to continue learning and exploring new concepts in JavaScript. We
-          regularly add new projects and resources to help you stay up-to-date
-          and expand your knowledge. Thanks for visiting, and we hope you enjoy
-          learning with us!
+          Once you have completed the course, you can come back to 100 JS
+          Projects to continue learning and exploring new concepts in
+          JavaScript. We regularly add new projects and resources to help you
+          stay up-to-date and expand your knowledge. Thanks for visiting, and we
+          hope you enjoy learning with us!
         </p>
       </div>
     </div>
