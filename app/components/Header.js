@@ -1,6 +1,7 @@
 import Link from "next/link";
+import React from "react";
 
-export default function () {
+const Header = () => {
   return (
     <header className="max-w-7xl mx-auto flex flex-col items-center p-4 bg-gradient-to-tr from-pink-500  to-red-400 text-white md:flex-row justify-between">
       <Link href="/" className="flex items-center  ">
@@ -37,4 +38,6 @@ export default function () {
       </div>
     </header>
   );
-}
+};
+
+export default Header;
