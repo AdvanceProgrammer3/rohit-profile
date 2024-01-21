@@ -20,11 +20,11 @@ const Project = async ({ params }) => {
           {item.id == params.id && (
             <div className="flex flex-col md:flex-row items-center gap-10">
               <div className="flex-1">
-                <img src={item.image} alt="" className="w-64 lg:w-96 " />
+                <img src={item.image} alt="" className="w-40 h-40 lg:w-96 " />
               </div>
               <div className=" space-y-10 flex-1">
-                <p>{item.title}</p>
-                <p>{item.description}</p>
+                <p className="font-medium">{item.title}</p>
+                <p className="font-sm">{item.description}</p>
               </div>
             </div>
           )}

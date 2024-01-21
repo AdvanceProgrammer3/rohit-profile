@@ -23,7 +23,7 @@ export default async function Projects() {
           >
             <Link href={`/projects/${product.id}`}>
               <img
-                className="rounded-t-lg h-60 w-72 hover:scale-105 ease-out duration-300"
+                className="rounded-t-lg h-40 w-40 hover:scale-105 ease-out duration-300"
                 src={product.image}
                 alt=""
               />
